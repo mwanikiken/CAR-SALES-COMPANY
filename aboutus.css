@@ -1,0 +1,63 @@
+/* Style.css */
+
+body {
+    background-color: rgb(222, 222, 223);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.toplink {
+    background-color: rgb(117, 160, 240);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.toplink a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.toplink a:hover {
+    color: #f39f9f;
+    background-color: #6982f3;
+    text-decoration: none;
+}
+
+.header {
+    background-color: azure;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-section, .team-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-section {
+    margin-top: 30px;
+}
+
+.employee {
+    text-align: center;
+}
+
+.employee img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.employee h3 {
+    margin: 5px 0;
+}
+
+.employee p {
+    color: #555;
+}

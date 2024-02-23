@@ -1,0 +1,80 @@
+/* Style.css */
+
+body {
+    background-color: rgb(222, 222, 223);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.toplink {
+    background-color: rgb(117, 160, 240);
+    overflow: hidden;
+    padding: 10px;
+}
+
+.toplink a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.toplink a:hover {
+    color: #f39f9f;
+    background-color: #6982f3;
+    text-decoration: none;
+}
+
+.header {
+    background-color: azure;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(117, 160, 240);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #6982f3;
+}
+
+.footer {
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+}
